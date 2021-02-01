@@ -1,7 +1,7 @@
 
 // ---- tuples ---- //
 
-let tup: [string, number, bool] = ['fish', 4, false] //"arrays with datatypes in fixed positions"
+let tup: [string, number, boolean] = ['fish', 4, false] //"arrays with datatypes in fixed positions"
 let f = tup[0] //'fish'
 
 // ---- objects ---- //
@@ -47,7 +47,7 @@ class Dolphin {
 //interfaces = protocol for objects
 //defines properties + methods that must be implemented
 interface IsAnimal {
-    public name: string
+    name: string
 }
 
 class Dog implements IsAnimal {
